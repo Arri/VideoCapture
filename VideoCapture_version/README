@@ -1,3 +1,10 @@
-Under Construction...
 C++ code based on openCV, developed on the Raspberry Pi 3
-- saving after motion detection shows 'Segmentation Fault' (12/6/2016)
+- Execute:
+	$ cmake .
+- This generates a Makefile. Execute:
+	$ make
+- This generates the executable. Run the executable with:
+	$ ./displayMotion
+	
+Note:
+	You need a folder named ./detection in the execution file where the videos are saved
