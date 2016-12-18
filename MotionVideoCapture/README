@@ -7,4 +7,4 @@ C++ code based on openCV, developed on the Raspberry Pi 3
 	$ ./displayMotion
 	
 Note:
-	You need a folder named ./detection in the execution file where the videos are saved
+	You need a folder named ./detection in the execution folder where the videos are saved
