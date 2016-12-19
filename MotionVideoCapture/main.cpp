@@ -4,9 +4,7 @@
 
 int main(int argc, char* argv[])
 {
-	const string DIR = "/home/pi/camClass/VideoCapture_version/pics/"; //Target directory to save images
-	
-	
+
 	// Create a camera instance...
 	Camera cam1;
 	int number_of_changes = 0;
@@ -25,7 +23,6 @@ int main(int argc, char* argv[])
 	int framesize;				// size of a frame...
 	
 	// Create file name for detected motion...
-	stringstream ss;
 	time_t seconds;
 	struct tm * timeinfo;
 	char detectionfile[80];
